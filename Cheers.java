@@ -29,7 +29,8 @@ public class Cheers {
                 }
                 
         
-                System.out.println("Give me " + x + word.charAt(i) + ": " + word.charAt(i) + "!");
+                System.out.println("Give me " + x + word.charAt(i) + ": ");
+                 System.out.println(word.charAt(i) + "!");
             }
 
             System.out.println("What does that spell?");
