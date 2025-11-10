@@ -29,7 +29,7 @@ public class Cheers {
                 }
                 
         
-                System.out.println("Give me " + x + word.charAt(i) + ": ");
+                System.out.print("Give me " + x + word.charAt(i) + ": ");
                  System.out.println(word.charAt(i) + "!");
             }
 
