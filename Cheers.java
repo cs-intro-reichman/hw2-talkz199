@@ -21,7 +21,7 @@ public class Cheers {
 
 
             for(int i=0; i < word.length(); i++){
-                String x ="a "  ;
+                String x ="a  "  ;
                 String anLetters = "AEFHILMNORSX";
                 int an = anLetters.indexOf(word.charAt(i));
                 if (an != -1) {
@@ -29,8 +29,7 @@ public class Cheers {
                 }
                 
         
-                System.out.print("Give me " + x + word.charAt(i) + ": ");
-                 System.out.println(word.charAt(i) + "!");
+                System.out.println("Give me " + x + word.charAt(i) + ": " + word.charAt(i) + "!");
             }
 
             System.out.println("What does that spell?");
