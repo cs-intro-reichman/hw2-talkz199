@@ -13,7 +13,7 @@ public class Cheers {
             int num = Integer.parseInt(args[1]);
             // להעלות את האותיות לאותר גדולהֿ
            word = word.toUpperCase();
-           String x ="a "  ;
+          
              
 
 
@@ -21,11 +21,14 @@ public class Cheers {
 
 
             for(int i=0; i < word.length(); i++){
+                String x ="a "  ;
                 String anLetters = "AEFHILMNORSX";
                 int an = anLetters.indexOf(word.charAt(i));
-                if (an == -1) {
+                if (an != -1) {
                 x = "an " ;
                 }
+                
+        
                 System.out.println("Give me " + x + word.charAt(i) + ": " + word.charAt(i) + "!");
             }
 
