@@ -51,7 +51,7 @@ public class Collatz {
 					}
 					if (mode == 'v'){
 					System.out.println(" (" + count + ")");
-					System.out.println();
+					
 					}
 					
 				}
